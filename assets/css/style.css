@@ -1156,6 +1156,9 @@ ul {
   background: rgba(29, 194, 149, 0.1);
 }
 
+.bg-FDC800{
+  background:rgba(253, 200, 0, 0.25);
+}
 .pd-top-60 {
   padding-top: 60px;
 }
@@ -3075,7 +3078,7 @@ ul {
 
 .single-list-inner.style-white p,
 .single-list-inner.style-white h5 {
-  color: #fff;
+  color: #27182F;
 }
 
 .single-list-inner .media .media-left {
@@ -4723,16 +4726,7 @@ ul {
   padding-left: 18px;
 }
 
-.footer-area .widget-title:after {
-  content: "";
-  position: absolute;
-  height: 19px;
-  width: 6px;
-  left: 0;
-  top: 6px;
-  border-radius: 6px;
-  background: var(--main-color);
-}
+
 
 .footer-area .widget_about {
   background: #fff;
@@ -4762,13 +4756,7 @@ ul {
   list-style: none;
 }
 
-.footer-area .widget_contact ul li i {
-  margin-right: 14px;
-  color: var(--main-color);
-  position: absolute;
-  left: 0;
-  top: 6px;
-}
+
 
 .footer-area .widget_contact ul li:last-child {
   margin-bottom: 0;
