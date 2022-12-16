@@ -1952,15 +1952,9 @@ ul {
 .navbar-area .nav-container .navbar-collapse .navbar-nav>li {
   margin-right: 12px;
 }
-
-.sticky-active {
-  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-  box-shadow: 0 10px 20px 0 rgba(46, 56, 220, 0.05);
+ul li::before{
+  
+  color:#f0f4f9;
 }
 
 .navbar-area-1.sticky-active {
@@ -4822,7 +4816,7 @@ ul {
   top: 12px;
   height: 6px;
   width: 6px;
-  background: var(--main-color);
+  background: #F0F4F9;
 }
 
 .footer-subscribe {
